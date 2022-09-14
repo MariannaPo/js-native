@@ -3,9 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {value01_01} from "./01";
+import {splitIntoWards} from "./01-hello-tests/01";
 
-let a = value01_01;
+const sentense = "Hello my friend!";
+const result = splitIntoWards(sentense)
+console.log(result[0]==='Hello');
+console.log(result[1]==='my');
+console.log(result[2]==='friend');
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
