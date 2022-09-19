@@ -3,13 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {splitIntoWards} from "./01-hello-tests/01";
+import {sum} from "./03/03";
 
-const sentense = "Hello my friend!";
-const result = splitIntoWards(sentense)
-console.log(result[0]==='Hello');
-console.log(result[1]==='my');
-console.log(result[2]==='friend');
+var a = sum;
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
