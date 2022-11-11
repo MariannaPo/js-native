@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {sum} from "./03/03";
-import {User} from "./06/06_01";
+import {sum} from "./js_native_video/03/03";
+import {User} from "./js_native_video/06/06_01";
+import lesson02 from "./js_lessons_video/lesson02";
 
 var a = sum;
 
