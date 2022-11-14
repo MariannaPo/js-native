@@ -1,20 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {sum} from "./js_native_video/03/03";
-import {User} from "./js_native_video/06/06_01";
-import lesson02 from "./js_lessons_video/lesson02";
+import js03 from "./js_lessons_video/03/js03";
 
-var a = sum;
-
+console.log(js03);
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <User />
   </React.StrictMode>
 );
 

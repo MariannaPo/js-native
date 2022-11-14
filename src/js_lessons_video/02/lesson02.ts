@@ -81,7 +81,7 @@ function exampleFunction(num: number){
         }
         default: {
             console.log('so bad')
-        }s
+        }
     }
     console.log('end of exampleFunction')
     return;
