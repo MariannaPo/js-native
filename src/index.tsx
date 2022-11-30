@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import js03 from "./js_lessons_video/03/js03";
+import js04 from './js_lessons_video/04/js04';
 
-console.log(js03);
+console.log(js04);
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
